@@ -1,4 +1,4 @@
-"Modulo que contém operações Matemáticas"
+"Modulo que contém operações Matemáticas 2 "
 
 def soma(parcela, parcel_2):
    """Essa função  calcula a soma de duas parcelas
