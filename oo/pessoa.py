@@ -15,8 +15,11 @@ class Pessoa:
     @classmethod
     def nome_e_atributos_de_classe(cls):
         return f'{cls} - olhos{cls.olhos}'
-class Homem (Pessoa):
+class Homem(Pessoa):
     pass
+
+class Mutante(Pessoa):
+    olhos = 3
 
 if __name__ == '__main__':
     Gabriel = Homem(nome = 'Gabriel')
@@ -46,3 +49,4 @@ if __name__ == '__main__':
     print(isinstance(pessoa, Homem))
     print(isinstance(Henrique, Pessoa))
     print(isinstance(Henrique, Homem))
+    print(Gabriel.olhos)
